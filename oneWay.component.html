@@ -1,0 +1,7 @@
+
+<input type="text"  [value]="firstname" placeholder="firstname" #firstName>
+<input type="text" [value]="lastname" placeholder="lastname" #lastName>
+
+
+
+<input type="button" value="login" (click)="login(firstName.value,lastName.value)">
